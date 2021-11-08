@@ -2,7 +2,7 @@
 
 Founder : 方子樽
 
-Members :
+Members : Yan
 
 Description : Solve and discuss the problem every Friday afternoon
 <br  />
