@@ -11,9 +11,13 @@ Description : Solve and discuss the problem every Friday afternoon
 # <Strong>_Rule_</Strong>
 
 1. You do not talk about Code-club.
+
 2. There is no correct answer, only a better answer, so don't scold others
+
 3. If you have problem of this problem, you can discuss with the people at code-club, but don’t read the answer directly before finishing it.
+
 4. No pressure, not mandatory, But if you don't come this week you must tell the group first
+
 5. Don't mess with other people's folders, I can see
    <br  />
    <br  />
@@ -38,8 +42,11 @@ Description : Solve and discuss the problem every Friday afternoon
 # <Strong>_Pre-work_</Strong>
 
 1. git clone `git@github.com:FangJim/code-club.git`
+
 2. create your own folder (use your name or nickname)
+
 3. Update the `README.md` plus your real name in members
+
 4. git push
    <br  />
    <br  />
