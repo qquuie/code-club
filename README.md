@@ -7,13 +7,14 @@ Members :
 Description : Solve and discuss the problem every Friday afternoon
 <br  />
 <br  />
+
 # <Strong>_Problems this week_</Strong>
 
-1. 
+1. https://leetcode.com/problems/two-sum/
 
-2.
+2. https://leetcode.com/problems/longest-common-prefix/
 
-3.
+3. https://leetcode.com/problems/valid-parentheses/
 
 # <Strong>_Rule_</Strong>
 
