@@ -61,4 +61,4 @@ Description : Solve and discuss the problem every Friday afternoon
 
 4. if (Next question) `goto 1` ; else `goto 5`
 
-5. discuss the problems next week
+5. discuss the new problems of next week
