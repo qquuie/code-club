@@ -41,6 +41,7 @@ Description : Solve and discuss the problem every Friday afternoon
 1. git clone `git@github.com:FangJim/code-club.git`
 2. create your own folder (use your name or nickname)
 3. Update the `README.md` plus your real name in members
+4. git push
    <br  />
    <br  />
 
@@ -52,6 +53,6 @@ Description : Solve and discuss the problem every Friday afternoon
 
 3. After everyone is done, everyone discusses a better algorithm
 
-4. if (Next question)`goto 1` ; else `goto 5`
+4. if (Next question) `goto 1` ; else `goto 5`
 
 5. discuss the problems next week
