@@ -20,7 +20,7 @@ Description : Solve and discuss the problem every Friday afternoon
 
 1. You do not talk about Code-club.
 
-2. There is no correct answer, only a better answer, so don't scold others
+2. There is no correct answer, only have the better answer, so don't scold others
 
 3. If you have problem of this problem, you can discuss with the people at code-club, but don’t read the answer directly before finishing it.
 
