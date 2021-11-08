@@ -39,7 +39,7 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 -   The code must annotated to make it easier for others to read and also for you to watch in the future (We'll
     Unified format)
 
--   git commit -m `"the date you finish your code"` -m `"Source of the problem"`
+-   git commit -m `"the date you finish your code"`
 
 -   Try your best to solve the weekly problems, otherwise it will accumulate more and more and cause self-confidence to be frustrated.
 
