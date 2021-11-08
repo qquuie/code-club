@@ -32,7 +32,6 @@ Description : Solve and discuss the problem every Friday afternoon
 -   Try your best to solve the weekly problems, otherwise it will accumulate more and more and cause self-confidence to be frustrated.
 
 -   It will be difficult at first, but you can do it
-
 <br  />
 <br  />
 
