@@ -4,7 +4,7 @@ Founder : 方子樽
 
 Members :
 
-Description : Solve and discuss the problem every Friday afternoon
+Description : `School team`, solve and discuss the problem every Friday afternoon
 <br  />
 <br  />
 
