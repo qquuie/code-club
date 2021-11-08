@@ -36,7 +36,6 @@ Description : Solve and discuss the problem every Friday afternoon
 <br  />
 
 # <Strong>_Pre-work_</Strong>
-
 1. git clone `git@github.com:FangJim/code-club.git`
 2. create your own folder (use your name or nickname)
 3. Update the `README.md` plus your real name in members
