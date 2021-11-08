@@ -7,6 +7,13 @@ Members :
 Description : Solve and discuss the problem every Friday afternoon
 <br  />
 <br  />
+# <Strong>_Problems this week_</Strong>
+
+1. 
+
+2.
+
+3.
 
 # <Strong>_Rule_</Strong>
 
