@@ -47,18 +47,6 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
     <br  />
     <br  />
 
-# <Strong>_Pre-work_</Strong>
-
-1. git clone `git@github.com:FangJim/code-club.git`
-
-2. create your own folder (use your name or nickname)
-
-3. Update the `README.md` plus your real name in members
-
-4. git push
-   <br  />
-   <br  />
-
 # <Strong>_Discussion process_</Strong>
 
 1. Everyone went to the stage to explain their algorithm and used the whiteboard present and analyze the time complexity
