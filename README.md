@@ -8,7 +8,7 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 <br  />
 <br  />
 
-# <Strong>_Problems this week_</Strong>
+# <Strong>_Problems of this week_</Strong>
 
 1. https://leetcode.com/problems/two-sum/
 
@@ -22,7 +22,7 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 
 2. There is no correct answer, only have the better answer, so don't scold others
 
-3. If you have problem of this problem, you can discuss with the people at code-club, but don’t read the answer directly before finishing it.
+3. If you encounter difficulties, you can discuss with the people at code-club, but don’t read the answer directly before finishing it.
 
 4. No pressure, not mandatory, But if you don't come this week you must tell the group first
 
@@ -35,6 +35,8 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 -   Three questions per week (Adjust according to the situation) , decide on the problems of this week during the discussion
 
 -   No restrictions on any programming language
+
+-   You can put any program in your folder but remember to categorize it so that others can find it
 
 -   The code must annotated to make it easier for others to read and also for you to watch in the future (We'll
     Unified format)
