@@ -16,7 +16,7 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 
 3. https://leetcode.com/problems/valid-parentheses/
 
-# <Strong>_Rule_</Strong>
+# <Strong>_Rules_</Strong>
 
 1. You do not talk about Code-club.
 
