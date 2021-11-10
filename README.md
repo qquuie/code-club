@@ -2,7 +2,7 @@
 
 Founder : 方子樽
 
-Members : Yan
+Members : Yan,温存正
 
 Description : <Strong>School team</Strong>, solve and discuss the problem every Friday afternoon
 <br  />
