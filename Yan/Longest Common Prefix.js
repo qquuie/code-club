@@ -1,7 +1,9 @@
 (function() {
-    strs = ["flower", "flow", "flight"];
     /**
-     * @param {string[]} strs input 
+     * 1.set strs of limit are 200 and check length 
+     * 2.compare firstStr to sceondStr then compare firstStr/secondStr to end
+     * 3.check answer.length>0 or []
+     * @param {string[]} strs  
      * @return {string}
      */
     const longestCommonPrefix = function(strs) {
@@ -12,9 +14,7 @@
         strFirst = strs[0].split('');
         strSecond = strs[1].split('');
         strEnd = strs[strs.length - 1].split('');
-        // strs of limit are 200
         for (let i = 0; i <= 200; i++) {
-            // check length 
             if (strFirst.length > strSecond.length) {
                 if (strSecond.length === i) {
                     break;
@@ -24,21 +24,16 @@
                     break;
                 }
             }
-            // compare first and sceond
             if (strFirst[i] === strSecond[i]) {
-                // compare first/second and end
                 if (strFirst[i] === strEnd[i]) {
-                    answer.push(strFirst[i])
+                    answer.push(strFirst[i]);
                 }
             } else {
-                console.log(`""\nThere is no common prefix a mon the input strings.`)
-                break;
+                return "";
             }
         }
-        // check answer.length>0 or []
         if (answer.length > 0) {
-            console.log(answer);
+            return answer.join("");
         }
     };
-    longestCommonPrefix(strs)
 })()
