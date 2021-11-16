@@ -6,7 +6,7 @@
      * @param {string[]} strs  
      * @return {string}
      */
-    const longestCommonPrefix = function(strs) {
+    const longestCommonPrefix = strs => {
         let strFirst = [];
         let strSecond = [];
         let strEnd = [];

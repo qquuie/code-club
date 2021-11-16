@@ -1,20 +1,31 @@
 /**
+ * 1.use loop check '(','{','[' 
  * @param {string} s
  * @return {boolean}
  */
-s = "()"
-var isValid = function(s) {
-    const sign = ['(', ')', '{', '}', '[', ']'];
-    let arry = s.split('');
-    for (let i = 0; i < sign.length; i++) {
-        for (let j = 0; j < arry.length; j++) {
-            if (sign[i] === arry[j]) {
-
+const isValid = s => {
+    for (let i = 0; i < s.length; i++) {
+        for (let j = i + 1; j < s.length; j++) {
+            switch (s[i]) {
+                case '(':
+                    if (s[j] === ')') {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                case '{':
+                    if (s[j] === '}') {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                case '[':
+                    if (s[j] === ']') {
+                        return true;
+                    } else {
+                        return false;
+                    }
             }
         }
     }
-
-    // console.log(arry[0])
 };
-
-isValid(s);
