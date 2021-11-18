@@ -1,6 +1,7 @@
 (function() {
     /**
-     * 1.use loop check '(','{','[' 
+     * 1.use loop check '(','{','[' and push ')','}',']'
+     * 2 check s[i] === stack.pop()
      * @param {string} s
      * @return {boolean}
      */
