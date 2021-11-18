@@ -5,28 +5,24 @@
      * @return {boolean}
      */
     const isValid = s => {
+        let stack = [];
         for (let i = 0; i < s.length; i++) {
-            for (let j = i + 1; j < s.length; j++) {
-                switch (s[i]) {
-                    case '(':
-                        if (s[j] === ')') {
-                            return true;
-                        } else {
-                            return false;
-                        }
-                    case '{':
-                        if (s[j] === '}') {
-                            return true;
-                        } else {
-                            return false;
-                        }
-                    case '[':
-                        if (s[j] === ']') {
-                            return true;
-                        } else {
-                            return false;
-                        }
-                }
+            switch (s[i]) {
+                case '(':
+                    stack.push(')');
+                    break;
+                case '{':
+                    stack.push('}');
+                    break;
+                case '[':
+                    stack.push(']');
+                    break;
+                default:
+                    if (s[i] !== stack.pop()) {
+                        return false;
+                    } else {
+                        return true
+                    }
             }
         }
     };

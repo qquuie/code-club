@@ -7,13 +7,10 @@
      * @return {string}
      */
     const longestCommonPrefix = strs => {
-        let strFirst = [];
-        let strSecond = [];
-        let strEnd = [];
+        let strFirst = strs[0].split('');
+        let strSecond = strs[1].split('');
+        let strEnd = strs[strs.length - 1].split('');
         let answer = [];
-        strFirst = strs[0].split('');
-        strSecond = strs[1].split('');
-        strEnd = strs[strs.length - 1].split('');
         for (let i = 0; i <= 200; i++) {
             if (strFirst.length > strSecond.length) {
                 if (strSecond.length === i) {
