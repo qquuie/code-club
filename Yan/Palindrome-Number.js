@@ -14,4 +14,3 @@ const isPalindrome = function(x) {
         return false
     }
 };
-isPalindrome();
