@@ -1,20 +1,30 @@
-/**
- * @param {string} s
- * @return {boolean}
- */
-s = "()"
-var isValid = function(s) {
-    const sign = ['(', ')', '{', '}', '[', ']'];
-    let arry = s.split('');
-    for (let i = 0; i < sign.length; i++) {
-        for (let j = 0; j < arry.length; j++) {
-            if (sign[i] === arry[j]) {
-
+(function() {
+    /**
+     * 1.use loop check '(','{','[' and push ')','}',']'
+     * 2 check s[i] === stack.pop()
+     * @param {string} s
+     * @return {boolean}
+     */
+    const isValid = s => {
+        let stack = [];
+        for (let i = 0; i < s.length; i++) {
+            switch (s[i]) {
+                case '(':
+                    stack.push(')');
+                    break;
+                case '{':
+                    stack.push('}');
+                    break;
+                case '[':
+                    stack.push(']');
+                    break;
+                default:
+                    if (s[i] !== stack.pop()) {
+                        return false;
+                    } else {
+                        return true
+                    }
             }
         }
-    }
-
-    // console.log(arry[0])
-};
-
-isValid(s);
+    };
+})()
