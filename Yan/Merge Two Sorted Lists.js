@@ -7,8 +7,8 @@
  */
 /**
  * 1. check l1===[],l2===[] or not
- * 2. check l1.val<l2.val 
- * 3. if l1 or l2 ===null list.next = either l1 or l2
+ * 2. if l1 or l2 ===null list.next = either l1 or l2
+ * 3. check l1.val<l2.val 
  * 4. return list.next because list.head don't have value
  * @param {ListNode} l1
  * @param {ListNode} l2
