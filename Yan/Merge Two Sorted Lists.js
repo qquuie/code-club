@@ -15,7 +15,7 @@
  * @return {ListNode}
  */
 const mergeTwoLists = (l1, l2) => {
-    let list = new ListNode();
+    let list = new ListNode(0);
     let current = list;
     if (l1 === null) {
         return l2
