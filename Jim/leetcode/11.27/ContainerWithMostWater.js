@@ -1,7 +1,7 @@
 /**
  * 往小的那邊前進
  * 面積 (right - left) * Math.min(height[right], height[left])
- * 用current紀錄當次 再和ans比
+ * 用current紀錄當次 再和an
  * @param {number[]} height
  * @return {number}
  */
