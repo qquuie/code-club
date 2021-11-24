@@ -1,0 +1,11 @@
+let isSameTree = (p, q) => {
+    if (p == null && q == null) return true;
+    if (p == null || q == null) return false;
+
+    return (
+        //if false down to next statement
+        p.val === q.val &&
+        isSameTree(p.left, q.left) &&
+        isSameTree(p.right, q.right)
+    );
+};
