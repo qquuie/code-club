@@ -16,5 +16,6 @@ let maxArea = (height) => {
         (height[left] <= height[right]) ? left++ : right--;
         if (left === right) return ans
     }
+
     return ans;
 };
