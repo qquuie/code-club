@@ -17,14 +17,14 @@
     }
     else{
         if(l1.val > l2.val){
-            // t=l2
-            // l2=l2.next
-            // t.next=mergeTwoLists(l1,l2)
+            t=l2
+            l2=l2.next
+            t.next=mergeTwoLists(l1,l2)
         }
         else{
-            // t=l1
-            // l1=l1.next
-            // t.next=mergeTwoLists(l1,l2)
+            t=l1
+            l1=l1.next
+            t.next=mergeTwoLists(l1,l2)
         }
     }
     return t
