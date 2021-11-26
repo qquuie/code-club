@@ -11,11 +11,11 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 
 # <Strong>_Problems of this week_</Strong>
 
-1. https://leetcode.com/problems/merge-two-sorted-lists/
+1. https://leetcode.com/problems/pascals-triangle/
 
-2. https://leetcode.com/problems/container-with-most-water/
+2. https://leetcode.com/problems/generate-parentheses/
 
-3. https://leetcode.com/problems/same-tree/
+3. https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 # <Strong>_Rules_</Strong>
 
