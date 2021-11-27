@@ -9,7 +9,10 @@
 let isHappy = (n) => {
     let ans = n
     let set = new Set();
-    while (!set.has(ans)) {//檢查set中有無重複
+    //檢查set中有無重複
+    // this is O(1) js using hash to build the set 
+    // faster than array(O(n))
+    while (!set.has(ans)) {
         set.add(ans)
         ans = disassembleNumber(ans)
     }
@@ -19,9 +22,11 @@ let isHappy = (n) => {
 function disassembleNumber(number) {
     let newNum = 0, temp;
     while (number > 0) {//計算當局數值
-        number < 10 ? temp = number : temp = number % 10
+        temp = number % 10;
         newNum += temp * temp;
-        number = Math.floor(number / 10);
+        number = Math.floor(number / 10);//取整數
     }
     return newNum
 }
+
+//So Time complexity is O(n) n might be large
