@@ -29,4 +29,5 @@ function disassembleNumber(number) {
     return newNum
 }
 
-//So Time complexity is O(n) n might be large
+//So Time complexity is O(n*n) 但我們知道最大組合是 (1到9)平方*(0到9)平方 最糟有90種可能
+//所以可以看成O(90n)故 => O(n)
