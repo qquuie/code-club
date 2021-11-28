@@ -1,3 +1,5 @@
+//想不出來 看完才會的 https://www.youtube.com/watch?v=sz1qaKt0KGQ&ab_channel=BackToBackSWE
+
 /**
  * main function
  * @param {*} n 
