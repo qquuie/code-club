@@ -11,10 +11,9 @@ let maxArea = (height) => {
     let right = length - 1;
     if (length === 1) return height[0];
 
-    for (let i = 0; i < length; i++) {
+    while (left != right) {
         ans = Math.max(ans, (right - left) * Math.min(height[right], height[left]));
         (height[left] <= height[right]) ? left++ : right--;
-        if (left === right) return ans
     }
     return ans;
 };

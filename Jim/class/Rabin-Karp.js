@@ -41,4 +41,4 @@ function printAns(ans) {
     console.log("Done")
 }
 
-search("Smartphone photo", "ph", 101, 256)
+search("Smartphoneslekfmksmfm;", "fm", 101, 256)

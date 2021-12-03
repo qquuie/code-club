@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -8,7 +9,7 @@ public:
             iter = num_position.find(target-nums[i]);
             if (iter != num_position.end()){ 
                 ans.push_back(iter->second); 
-                ans.push_back(i);             
+                ans.push_back(i);    
                 return ans;     
             }
             else{ 
@@ -16,5 +17,6 @@ public:
             }
         }
         return ans;
-    }cd ..
+    }
 };
+*/
