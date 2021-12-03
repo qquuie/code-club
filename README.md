@@ -2,8 +2,7 @@
 
 Founder : 方子樽
 
-
-Members : 陳柏諺,温存正,Wesan,江若仙,洪立恒
+Members : 陳柏諺,温存正,簡文勝,江若仙,洪立恒,蔡坤霖
 
 Description : <Strong>School team</Strong>, solve and discuss the problem every Friday afternoon
 <br  />
@@ -11,11 +10,11 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 
 # <Strong>_Problems of this week_</Strong>
 
-1. https://leetcode.com/problems/pascals-triangle/
+1. https://leetcode.com/problems/climbing-stairs/
 
 2. https://leetcode.com/problems/generate-parentheses/
 
-3. https://leetcode.com/problems/maximum-depth-of-binary-tree/
+3. https://leetcode.com/problems/happy-number/
 
 # <Strong>_Rules_</Strong>
 
