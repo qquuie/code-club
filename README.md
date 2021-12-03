@@ -10,11 +10,11 @@ Description : <Strong>School team</Strong>, solve and discuss the problem every 
 
 # <Strong>_Problems of this week_</Strong>
 
-1. https://leetcode.com/problems/climbing-stairs/
+1. https://leetcode.com/problems/find-the-difference/
 
-2. https://leetcode.com/problems/generate-parentheses/
+2. https://leetcode.com/problems/get-maximum-in-generated-array/
 
-3. https://leetcode.com/problems/happy-number/
+3. https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/
 
 # <Strong>_Rules_</Strong>
 
