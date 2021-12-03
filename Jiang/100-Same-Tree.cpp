@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -10,3 +11,4 @@ public:
         return (p->val==q->val) && isSameTree(p->left,q->left) && isSameTree(p->right,q->right);
     }
 };
+*/
