@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     bool isHappy(int n) {
@@ -21,3 +22,4 @@ public:
         return n==1;
     }
 };
+*/
